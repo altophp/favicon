@@ -1,4 +1,4 @@
-# Generated Files
+# Files
 
 The generated set depends on the source format and optional features.
 

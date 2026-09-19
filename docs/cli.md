@@ -44,3 +44,17 @@ vendor/bin/favicon assets/logo.svg \
 Colors must use six hexadecimal digits. Invalid colors fail before generation.
 The command exits successfully after printing the output directory, the status
 of each file, and the generated HTML snippet.
+
+## Rerun and diagnose
+
+Existing outputs are skipped unless `--force` is supplied. This allows a safe
+rerun but does not detect that your source changed. To refresh an existing set:
+
+```bash
+vendor/bin/favicon assets/logo.svg --output public/favicons --public-path /favicons --manifest --app-name "My App" --force
+```
+
+Check input existence, a supported SVG/PNG extension, and six-digit color
+values first. If rasterization fails, check [available adapters](rasterizers.md).
+If writing fails, confirm the PHP process can create and write the output
+directory. Filesystem paths and public URL prefixes are independent options.

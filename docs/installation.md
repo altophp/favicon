@@ -28,4 +28,4 @@ Provide the Imagick PHP extension or GD. Imagick is tried first, then GD.
 
 The selected rasterizer creates the PNG sizes required for ICO, Apple touch,
 manifest, and search outputs. Continue with
-[Getting Started](getting-started.md) to generate a set.
+[Getting started](getting-started.md) to generate a set.
