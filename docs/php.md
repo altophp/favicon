@@ -1,4 +1,4 @@
-# PHP API
+# PHP
 
 Use `FaviconOptionsBuilder` and `FaviconGenerator` when favicon generation is
 part of an application, build command, or content pipeline.

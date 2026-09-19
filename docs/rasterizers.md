@@ -36,3 +36,11 @@ $generator = new FaviconGenerator(rasterizers: [$customRasterizer]);
 
 The custom rasterizer must declare whether it supports the input file and write
 the requested square PNG to the supplied destination.
+
+## Check adapter availability
+
+Check executables from the same environment that runs PHP; a web worker can
+have a different `PATH` from a terminal. For PNG input, verify `imagick` or
+`gd` appears in that runtime's `php -m` output. A present adapter can still
+reject an input through its installed delegates or security policy. Inspect
+the injected PSR logger's adapter errors before changing the source or adapter.

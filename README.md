@@ -9,7 +9,7 @@ Generate a focused, modern favicon set from one SVG or PNG source.
 &nbsp; [![GitHub Sponsors](https://img.shields.io/github/sponsors/smnandre?logo=githubsponsors&logoColor=00B7FF&label=%20Sponsor&labelColor=050608&color=00B7FF)](https://github.com/sponsors/smnandre)
 
 ALTO Favicon produces the small set of files current browsers and devices need,
-plus the exact HTML tags required to use them. The CLI and PHP API share the
+plus the exact HTML tags required to use them. The CLI and PHP share the
 same options, preserve SVG input for modern browsers, and select an available
 rasterizer automatically.
 
@@ -60,12 +60,13 @@ vendor/bin/favicon assets/logo.svg \
 | Guide | Contents |
 | --- | --- |
 | [Documentation index](docs/index.md) | Browse the complete guide set |
+| [Installation](docs/installation.md) | Install the package and a rasterizer |
 | [Getting started](docs/getting-started.md) | Generate and install the first favicon set |
 | [CLI](docs/cli.md) | Commands, flags, and examples |
-| [PHP API](docs/php-api.md) | Programmatic generation and reports |
+| [PHP](docs/php.md) | Programmatic generation and reports |
 | [Configuration](docs/configuration.md) | Options, defaults, and overwrite behavior |
 | [Rasterizers](docs/rasterizers.md) | SVG and PNG adapter selection |
-| [Generated files](docs/generated-files.md) | Default and optional outputs |
+| [Files](docs/files.md) | Default and optional outputs |
 | [Errors](docs/errors.md) | Input and rasterization failures |
 
 ## Contributing
