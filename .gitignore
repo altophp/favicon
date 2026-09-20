@@ -1,9 +1,10 @@
+/vendor/
+/composer.lock
 /.phpunit.cache/
+/.phpunit.result.cache
+/.php-cs-fixer.cache
+/coverage/
+/coverage.xml
+
 /public/
 /var/
-/vendor/
-/.php-cs-fixer.cache
-/coverage.xml
-/composer.lock
-/phpstan.neon
-/phpunit.xml
