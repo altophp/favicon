@@ -84,14 +84,17 @@ Before submitting code, run:
 composer qa
 ```
 
+Changes to public behavior should include tests and documentation.
+
 ## Support
 
-ALTO Favicon is open source. You can support its continued development through
+ALTO Favicon is open source and independently maintained by
+[Simon André](https://smnandre.dev). If it is useful to your work, you can
+support its continued development through
 [GitHub Sponsors](https://github.com/sponsors/smnandre).
 
-Sharing this package with others or
-[starring it on GitHub](https://github.com/altophp/favicon) is also much
-appreciated.
+Sharing the package or
+[starring it on GitHub](https://github.com/altophp/favicon) also helps.
 
 ## License
 
