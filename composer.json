@@ -26,9 +26,9 @@
     ],
     "homepage": "https://altophp.com/favicon",
     "support": {
-        "docs": "https://altophp.com/favicon",
         "issues": "https://github.com/altophp/favicon/issues",
-        "source": "https://github.com/altophp/favicon"
+        "source": "https://github.com/altophp/favicon",
+        "docs": "https://altophp.com/favicon"
     },
     "funding": [
         {
@@ -65,14 +65,18 @@
     "bin": [
         "bin/favicon"
     ],
+    "config": {
+        "sort-packages": true
+    },
     "scripts": {
-        "cs": "vendor/bin/php-cs-fixer fix",
+        "cs": "vendor/bin/php-cs-fixer fix --dry-run --diff --sequential",
+        "cs:fix": "vendor/bin/php-cs-fixer fix --sequential",
         "qa": [
             "@cs",
             "@sa",
             "@test"
         ],
-        "sa": "vendor/bin/phpstan analyse",
+        "sa": "vendor/bin/phpstan analyse --memory-limit=-1",
         "test": "vendor/bin/phpunit"
     }
 }
