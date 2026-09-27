@@ -1,12 +1,18 @@
-# ALTO Favicon
+<h1 align="center">
+  <a href="https://altophp.com/favicon">
+    <img src=".github/alto-favicon.svg" alt="ALTO Favicon">
+  </a>
+</h1>
 
 Generate a focused, modern favicon set from one SVG or PNG source.
 
-&nbsp; ![PHP Version](https://img.shields.io/badge/PHP-8.3%2B-00B7FF?logoColor=00B7FF&labelColor=050608)
-&nbsp; ![CI](https://img.shields.io/github/actions/workflow/status/altophp/favicon/CI.yml?branch=main&label=Tests&labelColor=050608&color=00B7FF)
-&nbsp; [![Packagist](https://img.shields.io/packagist/v/alto/favicon?label=Packagist&labelColor=050608&color=00B7FF)](https://packagist.org/packages/alto/favicon)
-&nbsp; ![License](https://img.shields.io/github/license/altophp/favicon?label=License&labelColor=050608&color=00B7FF)
-&nbsp; [![GitHub Sponsors](https://img.shields.io/github/sponsors/smnandre?logo=githubsponsors&logoColor=00B7FF&label=%20Sponsor&labelColor=050608&color=00B7FF)](https://github.com/sponsors/smnandre)
+<p align="center">
+  <img alt="PHP Version" src="https://img.shields.io/badge/PHP-8.3%2B-00B7FF?logoColor=00B7FF&amp;labelColor=050608">
+  <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/altophp/favicon/CI.yml?branch=main&amp;label=Tests&amp;labelColor=050608&amp;color=00B7FF">
+  <a href="https://packagist.org/packages/alto/favicon"><img alt="Packagist" src="https://img.shields.io/packagist/v/alto/favicon?label=Packagist&amp;labelColor=050608&amp;color=00B7FF"></a>
+  <img alt="License" src="https://img.shields.io/github/license/altophp/favicon?label=License&amp;labelColor=050608&amp;color=00B7FF">
+  <a href="https://github.com/sponsors/smnandre"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/smnandre?logo=githubsponsors&amp;logoColor=00B7FF&amp;label=%20Sponsor&amp;labelColor=050608&amp;color=00B7FF"></a>
+</p>
 
 ALTO Favicon produces the small set of files current browsers and devices need,
 plus the exact HTML tags required to use them. The CLI and PHP share the
